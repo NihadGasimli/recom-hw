@@ -1,0 +1,55 @@
+body{
+    background-image: url("white-triangle-369b8d2d.jpg");
+}
+
+.header{
+    width: 100%;
+    background-color: #fff;
+   
+}
+.about{
+    width: 4%;
+    color: #777;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 1500px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+.portfolio{
+    width: 4%;
+    color: #777;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-left: 1600px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+.contact{
+    width: 4%;
+    color: #777;
+    background-color: rgb(255, 255, 255);
+    margin-top: -63px;
+    margin-left: 1730px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+.name{
+    background-color: #4AAAA6;
+    width: 15%;
+    margin-left: 350px;
+    margin-top: -40px;
+    margin-bottom: 63px;
+    padding-top: 20px;
+    padding-bottom: 3px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
