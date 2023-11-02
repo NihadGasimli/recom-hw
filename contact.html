@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -26,28 +26,35 @@
         </div>
     </div>
 
-    <div class="aboutme">
+    <div class="contactpage">
         <div class="hr">
             <hr>
         </div>
-        <div class="aboutmetext">
-            <p>About me</p>
+        <div class="contacttext">
+            <p>Contact</p>
         </div>
-        <div class="img">
-            <img src="./images/IMG_1580.jpg" width="300px">
+        <div>
+            <label class="labelname" for="name">Name</label>
+            <br>
+            <input class="inputname" name="form" type="text" id="name" placeholder="John Smith" required>
         </div>
-        <div class="text1">
-            <p>My name is Nihad Gasimli. I am 19 years old. I am studying at the National Aviation Academy, majoring in
-                Information Technologies. In addition, I am studying at <span>Elshad Aghazade</span>'s programming
-                school.</p>
+        <div>
+            <label class="labelemail" for="email">Email</label>
+            <br>
+            <input class="inputemail" name="form" type="email" id="email" placeholder="example@gmail.com" required>
         </div>
-        <div class="text2">
-            <p>I spend my free time writing code, finding additional tasks for myself and working on them. My hobbies
-                are driving and spending time with my friends. I don't like reading books. I prefer watching movies.</p>
+        <div class="textarea">
+            <label class="labeltext" for="message">Message</label>
+            <br>
+            <textarea id="message" name="form" required></textarea>
         </div>
+        <div>
+            <button class="button" name="form">Sent</button>
+        </div>
+
     </div>
 
-    <div class="connect">
+    <div class="connectcontact">
         <div class="connecttext">
             <p>Connect with Me</p>
         </div>
